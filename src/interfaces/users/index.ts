@@ -10,6 +10,7 @@ export interface IUser {
     name: string
     email: string
     isAdm: boolean
+    isActive: boolean
     createdAt: Date
     updatedAt: Date
 }
